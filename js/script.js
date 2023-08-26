@@ -23,4 +23,3 @@ fetch(DATA_URL)
   .then(response => response.json())
   .then(data => showData(data))
   .catch(error => console.error("Error fetching data:", error));
-
